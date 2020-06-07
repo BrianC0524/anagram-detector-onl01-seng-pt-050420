@@ -7,9 +7,9 @@ class Anagram
     @word = word
   end
   
-  def listen
+  def match(word)
     
-   @word
+   
     
   end
   
