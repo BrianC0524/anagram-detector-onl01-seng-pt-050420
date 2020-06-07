@@ -4,8 +4,10 @@ class Anagram
   attr_accessor :word
   
   def initialize(word)
-    @word = word.match(%w(word))
+    @word = word
   end
+  
+  def listen(word)
   
   
 end
